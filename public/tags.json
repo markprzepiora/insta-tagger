@@ -1,0 +1,59 @@
+[
+  { "label": "Format", "tags": [] },
+  {
+    "label": "Analog",
+    "tags": ["ishootfilm", "filmisnotdead", "believeinfilm", "analogphotography", "analogfilm", "buyfilmnotmegapixels", "filmphoto", "filmshooters", "staybrokeshootfilm", "keepfilmalive", "filmcamera", "フィルム", "フィルムカメラ", "フィルム写真", "フィルムに恋してる"]
+  },
+  {
+    "label": "Digital",
+    "tags": ["digital", "digitalphotography"]
+  },
+  {
+    "label": "Medium format",
+    "tags": ["mediumformat", "mediumformatfilm"]
+  },
+  {
+    "label": "35mm",
+    "tags": ["35mm", "35mmfilm"]
+  },
+  { "label": "Camera", "tags": [] },
+  {
+    "label": "Nikon F3 HP",
+    "tags": ["nikonf3", "nikonf3hp"]
+  },
+  {
+    "label": "Leica M4-P",
+    "tags": ["leica", "leicam4p"]
+  },
+  {
+    "label": "Mamiya C220",
+    "tags": ["6x6", "mamiyac220"]
+  },
+  {
+    "label": "Sony A7ii",
+    "tags": ["sonya7ii", "sonyalpha", "a7ii", "sonya7"]
+  },
+  { "label": "Film", "tags": [] },
+  {
+    "label": "Tri-X",
+    "tags": ["trix400", "kodaktrix", "kodaktrix400"]
+  },
+  {
+    "label": "Portra 400",
+    "tags": ["portra400", "kodakportra", "kodakportra400"]
+  },
+  { "label": "Style", "tags": [] },
+  {
+    "label": "B&W",
+    "tags": ["monochrome", "bnwphotography"]
+  },
+  {
+    "label": "Landscape",
+    "tags": ["landscape", "landscapephotography"]
+  },
+  { "label": "Location", "tags": [] },
+  {
+    "label": "Calgary",
+    "tags": ["calgary", "yyc"]
+  }
+]
