@@ -1,0 +1,21 @@
+{{outlet}}
+
+<ul class="select-tags">
+  {{#each model as |choice|}}
+    <li><label>
+      {{#if choice.tags.length}}
+        {{input type="checkbox" checked=choice.selected}}
+      {{/if}}
+
+      {{#if choice.tags.length}}
+        {{choice.label}}
+      {{else}}
+        <b>----- {{choice.label}} -----</b>
+      {{/if}}
+    </label></li>
+  {{/each}}
+</ul>
+
+<button {{action "copy"}}>Copy</button><br />
+
+<textarea class="tags js-tags">{{selectedTagString}}</textarea>
