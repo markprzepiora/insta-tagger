@@ -20,4 +20,10 @@ export default Ember.Object.extend({
 
     this.set('categories', newCategories);
   },
+
+  clone() {
+    return this.constructor.create({
+      categories: this.get('categories').map(cat => cat.clone())
+    });
+  },
 });

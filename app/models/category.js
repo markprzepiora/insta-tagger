@@ -21,4 +21,11 @@ export default Ember.Object.extend({
       return val;
     },
   }),
+
+  clone() {
+    return this.constructor.create({
+      label: this.get('label'),
+      tags: Ember.copy(this.get('tags')),
+    });
+  },
 });
