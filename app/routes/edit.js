@@ -1,7 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  modelLoader: Ember.inject.service('model-loader'),
+
   model() {
-    return this.modelFor('application').clone();
+    return this.get('modelLoader').find().then(model => model.clone());
   },
 });

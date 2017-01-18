@@ -26,4 +26,8 @@ export default Ember.Object.extend({
       categories: this.get('categories').map(cat => cat.clone())
     });
   },
+
+  toJSONString() {
+    return JSON.stringify(this.get('categories'));
+  },
 });

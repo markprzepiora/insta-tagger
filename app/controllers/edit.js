@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+  modelLoader: Ember.inject.service('model-loader'),
+
   actions: {
     addRow(afterIndex) {
       const beforeIndex = afterIndex + 1;
@@ -11,6 +13,11 @@ export default Ember.Controller.extend({
       }
 
       this.get('model').addRow(label, beforeIndex);
+    },
+
+    save() {
+      this.get('modelLoader').replaceWith(this.get('model'));
+      this.transitionToRoute('index');
     },
   },
 });

@@ -16,8 +16,41 @@ function createModel(arr) {
   });
 }
 
+function loadFromLocalStorage() {
+  const payload = window.localStorage.getItem('instagram-tagger--model');
+  if (!payload) {
+    return null;
+  }
+
+  const json = JSON.parse(payload);
+  return createModel(json);
+}
+
+function saveToLocalStorage(model) {
+  const jsonString = model.toJSONString();
+  window.localStorage.setItem('instagram-tagger--model', jsonString);
+}
+
 export default Ember.Service.extend({
+  loadDefault() {
+    const promise = fetchJSON('/assets/tags.json').then(createModel);
+    promise.then(model => {
+      saveToLocalStorage(model);
+    });
+    return promise;
+  },
+
   find() {
-    return fetchJSON('/assets/tags.json').then(createModel);
+    const currentModel = loadFromLocalStorage();
+
+    if (currentModel) {
+      return Ember.RSVP.resolve(currentModel);
+    } else {
+      return this.loadDefault();
+    }
+  },
+
+  replaceWith(newModel) {
+    saveToLocalStorage(newModel);
   },
 });
