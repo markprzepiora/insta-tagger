@@ -1,7 +1,7 @@
 {{outlet}}
 
 <ul class="select-tags">
-  {{#each model as |choice|}}
+  {{#each model.categories as |choice|}}
     <li><label>
       {{#if choice.tags.length}}
         {{input type="checkbox" checked=choice.selected}}

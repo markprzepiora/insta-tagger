@@ -1,0 +1,28 @@
+{{log model}}
+
+<table>
+  <tr>
+    <th>Label</th>
+    <th>Tags (leave blank for section)</th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <a href="javascript:void(0)" {{action "addRow" -1}}>add new here</a>
+    </td>
+  </tr>
+  {{#each model.categories as |choice index|}}
+    <tr>
+      <td valign="top">
+        {{input value=choice.label}}
+      </td>
+      <td class="edit-table__tags" valign="top">
+        {{textarea value=choice.spaceSeparatedTags}}
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <a href="javascript:void(0)" {{action "addRow" index}}>add new here</a>
+      </td>
+    </tr>
+  {{/each}}
+</table>

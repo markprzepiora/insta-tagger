@@ -7,7 +7,8 @@ function flatten(array) {
 }
 
 export default Ember.Controller.extend({
-  selectedChoices: Ember.computed.filterBy('model', 'selected', true),
+  categories: Ember.computed.alias('model.categories'),
+  selectedChoices: Ember.computed.filterBy('categories', 'selected', true),
   _selectedTags: Ember.computed.mapBy('selectedChoices', 'tags'),
   selectedTags: Ember.computed('_selectedTags.[]', function() {
     return flatten(this.get('_selectedTags'));
