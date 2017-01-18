@@ -10,6 +10,6 @@ function emberCreate(obj) {
 
 export default Ember.Route.extend({
   model() {
-    return fetchJSON('/tags.json').then(tags => tags.map(emberCreate));
+    return fetchJSON('/assets/tags.json').then(tags => tags.map(emberCreate));
   },
 });
