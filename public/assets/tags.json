@@ -39,8 +39,24 @@
     "tags": ["trix400", "kodaktrix", "kodaktrix400"]
   },
   {
+    "label": "HP5+",
+    "tags": ["ilford", "ilfordfilm", "hp5", "ilfordhp5", "hp5plus", "ilfordhp5plus"]
+  },
+  {
     "label": "Portra 400",
     "tags": ["portra400", "kodakportra", "kodakportra400"]
+  },
+  {
+    "label": "Ektar 100",
+    "tags": ["ektar", "ektar100", "kodakektar", "kodakektar100"]
+  },
+  {
+    "label": "Velvia 100",
+    "tags": ["velvia", "velvia100", "fujivelvia", "fujivelvia100"]
+  },
+  {
+    "label": "Velvia 50",
+    "tags": ["velvia", "velvia50", "fujivelvia", "fujivelvia50"]
   },
   { "label": "Style", "tags": [] },
   {
