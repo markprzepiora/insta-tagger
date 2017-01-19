@@ -13,6 +13,7 @@ export default Ember.Controller.extend({
   selectedTags: Ember.computed('_selectedTags.[]', function() {
     return flatten(this.get('_selectedTags'));
   }),
+  selectedTagsCount: Ember.computed.alias('selectedTags.length'),
   selectedTagString: Ember.computed('selectedTags.[]', function() {
     return this.get('selectedTags').map(tag => `#${tag}`).join(" ");
   }),

@@ -2,78 +2,169 @@
   { "label": "Format", "tags": [] },
   {
     "label": "Analog",
-    "tags": ["ishootfilm", "filmisnotdead", "believeinfilm", "analogphotography", "analogfilm", "buyfilmnotmegapixels", "filmphoto", "filmshooters", "staybrokeshootfilm", "keepfilmalive", "filmcamera", "フィルム", "フィルムカメラ", "フィルム写真", "フィルムに恋してる"]
+    "tags": [
+      "ishootfilm",
+      "filmisnotdead",
+      "believeinfilm",
+      "analogphotography",
+      "analogfilm",
+      "buyfilmnotmegapixels",
+      "filmphoto",
+      "filmshooters",
+      "staybrokeshootfilm",
+      "keepfilmalive",
+      "filmcamera",
+      "フィルム",
+      "フィルムカメラ",
+      "フィルム写真",
+      "フィルムに恋してる"
+    ]
   },
   {
     "label": "Digital",
-    "tags": ["digital", "digitalphotography"]
+    "tags": [
+      "digital",
+      "digitalphotography"
+    ]
   },
   {
     "label": "Medium format",
-    "tags": ["mediumformat", "mediumformatfilm"]
+    "tags": [
+      "mediumformat",
+      "mediumformatfilm"
+    ]
   },
   {
     "label": "35mm",
-    "tags": ["35mm", "35mmfilm"]
+    "tags": [
+      "35mm",
+      "35mmfilm"
+    ]
   },
   { "label": "Camera", "tags": [] },
   {
     "label": "Nikon F3 HP",
-    "tags": ["nikonf3", "nikonf3hp"]
+    "tags": [
+      "nikonf3",
+      "nikonf3hp"
+    ]
   },
   {
     "label": "Leica M4-P",
-    "tags": ["leica", "leicam4p"]
+    "tags": [
+      "leica",
+      "leicam4p"
+    ]
   },
   {
     "label": "Mamiya C220",
-    "tags": ["6x6", "mamiyac220"]
+    "tags": [
+      "6x6",
+      "mamiyac220"
+    ]
   },
   {
     "label": "Sony A7ii",
-    "tags": ["sonya7ii", "sonyalpha", "a7ii", "sonya7"]
+    "tags": [
+      "sonya7ii",
+      "sonyalpha",
+      "a7ii",
+      "sonya7"
+    ]
   },
   { "label": "Film", "tags": [] },
   {
     "label": "Tri-X",
-    "tags": ["trix400", "kodaktrix", "kodaktrix400"]
+    "tags": [
+      "trix400",
+      "kodaktrix",
+      "kodaktrix400"
+    ]
   },
   {
     "label": "HP5+",
-    "tags": ["ilford", "ilfordfilm", "hp5", "ilfordhp5", "hp5plus", "ilfordhp5plus"]
+    "tags": [
+      "ilford",
+      "ilfordfilm",
+      "hp5",
+      "ilfordhp5",
+      "hp5plus",
+      "ilfordhp5plus"
+    ]
   },
   {
     "label": "Portra 400",
-    "tags": ["portra400", "kodakportra", "kodakportra400"]
+    "tags": [
+      "portra400",
+      "kodakportra",
+      "kodakportra400"
+    ]
   },
   {
     "label": "Ektar 100",
-    "tags": ["ektar", "ektar100", "kodakektar", "kodakektar100"]
+    "tags": [
+      "ektar",
+      "ektar100",
+      "kodakektar",
+      "kodakektar100"
+    ]
   },
   {
     "label": "Velvia 100",
-    "tags": ["velvia", "velvia100", "fujivelvia", "fujivelvia100"]
+    "tags": [
+      "velvia",
+      "velvia100",
+      "fujivelvia",
+      "fujivelvia100"
+    ]
   },
   {
     "label": "Velvia 50",
-    "tags": ["velvia", "velvia50", "fujivelvia", "fujivelvia50"]
+    "tags": [
+      "velvia",
+      "velvia50",
+      "fujivelvia",
+      "fujivelvia50"
+    ]
   },
   { "label": "Style", "tags": [] },
   {
     "label": "B&W",
-    "tags": ["monochrome", "bnwphotography"]
+    "tags": [
+      "monochrome",
+      "bnwphotography"
+    ]
   },
   {
     "label": "Landscape",
-    "tags": ["landscape", "landscapephotography"]
+    "tags": [
+      "landscape",
+      "landscapephotography"
+    ]
   },
   {
     "label": "Nature",
-    "tags": ["nature", "naturephotography", "naturelover", "naturelovers", "natureshots", "naturegram", "natureporn", "nature_perfection", "natureaddict", "forest", "trees", "tree"]
+    "tags": [
+      "nature",
+      "naturephotography",
+      "naturelover",
+      "naturelovers",
+      "natureshots",
+      "naturegram",
+      "natureporn",
+      "nature_perfection",
+      "natureaddict",
+      "forest",
+      "trees",
+      "tree"
+    ]
   },
   { "label": "Location", "tags": [] },
   {
     "label": "Calgary",
-    "tags": ["calgary", "yyc"]
+    "tags": [
+      "calgary",
+      "yyc"
+    ]
   }
 ]
